@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" fill="none">
+  <defs>
+    <linearGradient id="je-bg-full" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="je-accent-full" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+    <linearGradient id="je-sheen-full" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Emblem Icon -->
+  <g transform="translate(6, 6) scale(0.65)">
+    <!-- Base Badge with Squircle -->
+    <rect x="6" y="6" width="108" height="108" rx="30" fill="url(#je-bg-full)" />
+    
+    <!-- Top Glass Sheen -->
+    <path d="M 6 36 C 6 19.43 19.43 6 36 6 H 84 C 100.57 6 114 19.43 114 36 V 52 C 75 64 45 42 6 52 Z" fill="url(#je-sheen-full)" />
+
+    <!-- Tracking Signal Pin Point -->
+    <circle cx="43" cy="27" r="4.5" fill="#38BDF8"/>
+    <circle cx="43" cy="27" r="7.5" stroke="#38BDF8" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Monogram Glyph: "J" -->
+    <path d="M 36 36 H 50 V 71 C 50 80.5 43.5 86 33 86 C 24 86 18.5 81 18.5 81 L 22.5 70 C 22.5 70 26 73.5 30.5 73.5 C 34.5 73.5 36 71 36 67 Z" fill="#FFFFFF"/>
+
+    <!-- Monogram Glyph: "E" -->
+    <path d="M 59 36 H 92 C 94.5 36 96 38 95 40.5 L 93 45.5 C 92.5 47 91 48 89 48 H 59 V 36 Z" fill="#FFFFFF"/>
+    <path d="M 59 53 H 84 C 86 53 87 54.5 86.5 56.5 L 85 61.5 C 84.5 63 83 64 81 64 H 59 V 53 Z" fill="url(#je-accent-full)"/>
+    <path d="M 59 69 H 93 C 95 69 96.5 70.5 96 72.5 L 94 78.5 C 93.5 80 91.5 81 89.5 81 H 59 V 69 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Typography: JE -->
+  <text x="96" y="52" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="38" letter-spacing="-0.02em" fill="#0F172A">JE</text>
+  <text x="156" y="52" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="22" letter-spacing="-0.01em" fill="#2563EB">TRACK</text>
+  <text x="98" y="70" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="11" letter-spacing="0.16em" fill="#64748B">ORDER LOGISTICS</text>
+</svg>
